@@ -22,7 +22,7 @@ function addToCallHistory(serviceName, Number) {
     const num = document.getElementById(Number).innerText
     const history = document.getElementById("call-history");
     const add = document.createElement("div");
-    add.className = "flex justify-between p-3  hind-siliguri bg-gray-100 rounded-lg";
+    add.className = "flex justify-between p-3 mb-2 hind-siliguri bg-gray-100 rounded-lg";
     add.innerHTML =
         '<div>' +
             '<p class="font-semibold">' + service + '</p>' +
