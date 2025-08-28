@@ -7,7 +7,7 @@
 
 **How do you create and insert a new element into the DOM?**
 
--To create a new element, use const new = document.createElement("element").
+- To create a new element, use const new = document.createElement("element").
 -To insert it into the page, use parent.appendChild(new)
 
 **What is Event Bubbling and how does it work?**
